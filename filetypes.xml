@@ -5,7 +5,6 @@
       <mapping pattern="MakeFile" type="Makefile" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
-      <mapping pattern="_content.rst" type="PLAIN_TEXT" />
       <mapping ext="cbz" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
     </extensionMap>
