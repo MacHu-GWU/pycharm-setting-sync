@@ -13,6 +13,7 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
+      <mapping pattern=".credentials" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping pattern="__version__" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
