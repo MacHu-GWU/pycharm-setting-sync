@@ -7,7 +7,6 @@
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping pattern="__version__" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
-      <mapping ext="tf" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <mapping ext="fnc" type="DBN-PSQL" />
