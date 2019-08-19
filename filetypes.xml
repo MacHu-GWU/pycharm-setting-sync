@@ -9,6 +9,7 @@
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
       <mapping pattern="__version__" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
+      <mapping pattern="temp" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="q" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
