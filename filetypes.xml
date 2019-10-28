@@ -7,6 +7,7 @@
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="version" type="PLAIN_TEXT" />
       <mapping pattern="ami-name" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="q" type="PLAIN_TEXT" />
