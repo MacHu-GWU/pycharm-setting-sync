@@ -11,6 +11,7 @@
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="q" type="PLAIN_TEXT" />
+      <mapping ext="rsp" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <mapping ext="fnc" type="DBN-PSQL" />
