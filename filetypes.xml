@@ -3,6 +3,7 @@
     <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping pattern="docker-image" type="PLAIN_TEXT" />
+      <mapping pattern="repo_name" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
       <mapping pattern="read-config-value" type="PLAIN_TEXT" />
