@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
