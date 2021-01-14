@@ -5,19 +5,20 @@
       <mapping pattern="Dockerfile2" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile3" type="PLAIN_TEXT" />
       <mapping pattern="repo_name" type="PLAIN_TEXT" />
-      <mapping pattern="host" type="PLAIN_TEXT" />
+      <mapping pattern="hunter-kapacuk-marksman-pve-lv80" type="PLAIN_TEXT" />
+      <mapping pattern=".ebignore" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile-backup" type="PLAIN_TEXT" />
-      <mapping pattern=".ebignore" type="PLAIN_TEXT" />
+      <mapping pattern="host" type="PLAIN_TEXT" />
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
       <mapping pattern="get-config-value" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping pattern="tag_name" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile4" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile1" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile4" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile3" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="wtf" type="PLAIN_TEXT" />
