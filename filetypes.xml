@@ -13,6 +13,7 @@
       <mapping pattern="host" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".ebignore" type="PLAIN_TEXT" />
+      <mapping pattern="Dockefile" type="PLAIN_TEXT" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping pattern=".coverage" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
