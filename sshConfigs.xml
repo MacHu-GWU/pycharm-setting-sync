@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="18.234.148.125" id="16984965-55d3-41f0-abba-1abcc520c10a" keyPath="$USER_HOME$/ec2-pem/eq-sanhe-dev.pem" port="22" customName="EC2 Jump Host Development" nameFormat="CUSTOM" username="ec2-user">
+        <option name="customName" value="EC2 Jump Host Development" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
