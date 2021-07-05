@@ -7,10 +7,10 @@
     <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="RemoteTool_Remote Tools_Run Bash Remotely">
-    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
   <action id="Tool_External Tools_Run Bash">
-    <keyboard-shortcut first-keystroke="shift back_quote" />
+    <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
   <action id="Tool_External Tools_Run with Bash">
     <keyboard-shortcut first-keystroke="shift back_quote" />
