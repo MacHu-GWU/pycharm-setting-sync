@@ -15,4 +15,7 @@
   <action id="Tool_External Tools_Run with Bash">
     <keyboard-shortcut first-keystroke="shift back_quote" />
   </action>
+  <action id="WebDeployment.BrowseServers">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
 </keymap>
