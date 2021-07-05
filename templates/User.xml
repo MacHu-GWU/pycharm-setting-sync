@@ -96,7 +96,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="toc" value=".. contents::&#10;&#10;" description="Table of content" toReformat="false" toShortenFQNames="true">
+  <template name="toc" value=".. contents::&#10;    :depth: 1&#10;    :local:&#10;&#10;" description="Table of content" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
