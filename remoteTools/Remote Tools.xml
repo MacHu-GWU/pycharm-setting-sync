@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="/bin/bash" />
       <option name="PARAMETERS" value="$FileName$" />
-      <option name="WORKING_DIRECTORY" value="$FilePathRelativeToProjectRoot$" />
+      <option name="WORKING_DIRECTORY" value="/tmp/pycharm-projects/$ProjectName$/$FileRelativeDir$" />
     </exec>
   </tool>
 </toolSet>
