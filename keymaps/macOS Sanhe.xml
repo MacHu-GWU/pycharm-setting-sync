@@ -1,10 +1,13 @@
-<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+<keymap version="1" name="macOS Sanhe" parent="Mac OS X 10.5+">
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="Tool_External Tools_Run Bash">
+    <keyboard-shortcut first-keystroke="shift back_quote" />
   </action>
   <action id="Tool_External Tools_Run with Bash">
     <keyboard-shortcut first-keystroke="shift back_quote" />
