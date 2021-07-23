@@ -1,5 +1,5 @@
 <toolSet name="Remote Tools">
-  <tool name="Run Bash Remotely" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="SSH_CONFIG" CONNECTION_ID="EC2 Jump Host Development">
+  <tool name="Run Bash Remotely" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="SSH_CONFIG" CONNECTION_ID="ec2-user@44.195.85.138:22 key">
     <exec>
       <option name="COMMAND" value="/bin/bash" />
       <option name="PARAMETERS" value="$FileName$" />
