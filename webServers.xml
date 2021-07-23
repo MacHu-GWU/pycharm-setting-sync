@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="c45199a7-0198-4ba7-bac3-4e79b101b7e0" name="ec2-user@44.195.85.138:22 key">
-        <fileTransfer accessType="SFTP" host="44.195.85.138" port="22" sshConfigId="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" sshConfig="ec2-user@44.195.85.138:22 key" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="3.225.243.100" port="22" sshConfigId="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" sshConfig="ec2-user@3.225.243.100:22 key" keyPair="true" />
       </webServer>
     </option>
   </component>

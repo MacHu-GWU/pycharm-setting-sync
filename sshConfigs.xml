@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="44.195.85.138" id="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" keyPath="$USER_HOME$/ec2-pem/aws-data-lab-sanhe-dev.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="3.225.243.100" id="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" keyPath="$USER_HOME$/ec2-pem/aws-data-lab-sanhe-dev.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" />
     </configs>
   </component>
 </application>
