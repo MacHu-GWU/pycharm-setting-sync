@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="ade7f8d3-fef6-4f11-bb48-c2ac7d8bdd2b" name="EC2 Jump Host Development">
-        <fileTransfer accessType="SFTP" host="18.234.148.125" port="22" sshConfigId="16984965-55d3-41f0-abba-1abcc520c10a" sshConfig="eq-sanhe/sanhe-jump-box" keyPair="true" />
+        <fileTransfer accessType="SFTP" sshConfigId="16984965-55d3-41f0-abba-1abcc520c10a" sshConfig="eq-sanhe/sanhe-jump-box" />
       </webServer>
     </option>
   </component>
