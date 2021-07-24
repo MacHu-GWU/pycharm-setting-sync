@@ -8,19 +8,19 @@
         <fileTransfer accessType="SFTP" host="3.225.243.100" port="22" sshConfigId="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" sshConfig="ec2-user@3.225.243.100:22 key" keyPair="true" />
       </webServer>
       <webServer id="f5bf7175-1589-42f2-943f-636b207f3540" name="ubuntu@3.231.208.212:22 key">
-        <fileTransfer accessType="SFTP" host="3.231.208.212" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@3.231.208.212:22 key" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="44.192.1.174" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@44.192.1.174:22 key" keyPair="true" />
       </webServer>
       <webServer id="dd9f83f0-1de2-4027-b4fa-7e87d83c1e36" name="ubuntu@3.231.208.212:22 key">
-        <fileTransfer accessType="SFTP" host="3.231.208.212" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@3.231.208.212:22 key" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="44.192.1.174" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@44.192.1.174:22 key" keyPair="true" />
       </webServer>
       <webServer id="6e14ae2e-20fd-4ed6-b484-75f15f23ed4e" name="ubuntu@3.231.208.212:22 key">
-        <fileTransfer accessType="SFTP" host="3.231.208.212" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@3.231.208.212:22 key" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="44.192.1.174" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@44.192.1.174:22 key" keyPair="true" />
       </webServer>
       <webServer id="01c8a726-4afa-4d58-ae23-76e44e93005b" name="ubuntu@3.231.208.212:22 key">
-        <fileTransfer accessType="SFTP" host="3.231.208.212" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@3.231.208.212:22 key" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="44.192.1.174" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@44.192.1.174:22 key" keyPair="true" />
       </webServer>
       <webServer id="cf6b4e03-41df-419e-83b1-dce517e2e6f4" name="ubuntu@3.231.208.212:22 key">
-        <fileTransfer accessType="SFTP" host="3.231.208.212" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@3.231.208.212:22 key" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="44.192.1.174" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@44.192.1.174:22 key" keyPair="true" />
       </webServer>
     </option>
   </component>
