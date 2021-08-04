@@ -3,6 +3,7 @@
     <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping pattern="credentials-target" type="AUTO_DETECTED" />
+      <mapping pattern="config" type="AUTO_DETECTED" />
       <mapping ext="template" type="AWSCloudFormation (JSON)" />
       <mapping pattern="host" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile-backup" type="PLAIN_TEXT" />
