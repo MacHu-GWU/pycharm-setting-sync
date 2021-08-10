@@ -333,4 +333,14 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="toc-furo-theme" value=".. contents::&#10;    :class: this-will-duplicate-information-and-it-is-still-useful-here&#10;    :depth: 1&#10;    :local:&#10;" description="Table of content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="autotoctree" value=".. autotoctree::&#10;    :maxdepth: 1&#10;" description="Sphinx auto table of content tree" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
