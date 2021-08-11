@@ -25,6 +25,9 @@
       <webServer id="429add08-62fd-41ff-8e48-0409583355ee" name="ubuntu@44.192.1.174:22 key">
         <fileTransfer accessType="SFTP" host="44.192.1.174" port="22" sshConfigId="30194013-bac0-42ee-a29a-f622ce11fac0" sshConfig="ubuntu@44.192.1.174:22 key" keyPair="true" />
       </webServer>
+      <webServer id="a40f6e48-bc3f-42fa-b2c6-5dc897d47b70" name="ec2-user@3.225.243.100:22 key">
+        <fileTransfer accessType="SFTP" host="3.225.243.100" port="22" sshConfigId="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" sshConfig="ec2-user@3.225.243.100:22 key" keyPair="true" />
+      </webServer>
     </option>
   </component>
 </application>
