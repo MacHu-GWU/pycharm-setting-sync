@@ -25,6 +25,7 @@
       <mapping pattern=".coverage" type="PLAIN_TEXT" />
       <mapping pattern="hunter-kapacuk-marksman-pve-lv80" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
+      <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="rsp" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="q" type="PLAIN_TEXT" />
