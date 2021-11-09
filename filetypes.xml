@@ -27,6 +27,7 @@
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="rsp" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
+      <mapping ext="drawio" type="PLAIN_TEXT" />
       <mapping ext="q" type="PLAIN_TEXT" />
       <mapping ext="wtf" type="PLAIN_TEXT" />
       <mapping ext="qml" type="PLAIN_TEXT" />
