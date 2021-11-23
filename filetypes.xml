@@ -32,6 +32,7 @@
       <mapping ext="q" type="PLAIN_TEXT" />
       <mapping ext="wtf" type="PLAIN_TEXT" />
       <mapping ext="qml" type="PLAIN_TEXT" />
+      <mapping ext="doctree" type="PLAIN_TEXT" />
       <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
