@@ -343,7 +343,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="asciicodeblock" value="#---------------------------------------------------------------------&#10;# Begin: $title$&#10;&#10;# End: $title$&#10;#---------------------------------------------------------------------" toReformat="false" toShortenFQNames="true">
+  <template name="asciicodeblock" value="#---------------------------------------------------------------------&#10;# Begin: $title$&#10;&#10;# End: $title$&#10;#---------------------------------------------------------------------" description="" toReformat="false" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
