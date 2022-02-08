@@ -349,4 +349,14 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="literalinclude" value=".. literalinclude:: $filename$&#10;   :language: $language$&#10;   :emphasize-lines: $line1$,$line2$-$line3$&#10;   :linenos:&#10;&#10;" description="literal include another file in restructured text" toReformat="false" toShortenFQNames="true">
+    <variable name="filename" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="language" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="line1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="line2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="line3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
