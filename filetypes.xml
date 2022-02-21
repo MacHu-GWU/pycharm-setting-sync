@@ -6,7 +6,6 @@
       <mapping pattern="version" type="AUTO_DETECTED" />
       <mapping pattern="credentials-target" type="AUTO_DETECTED" />
       <mapping pattern="config" type="AUTO_DETECTED" />
-      <mapping ext="template" type="AWSCloudFormation (JSON)" />
       <mapping pattern="host" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile-backup" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
@@ -36,6 +35,7 @@
       <mapping ext="qml" type="PLAIN_TEXT" />
       <mapping ext="doctree" type="PLAIN_TEXT" />
       <mapping ext="backup" type="PLAIN_TEXT" />
+      <mapping ext="py,cover" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
@@ -45,6 +45,7 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="template" type="AWSCloudFormation (JSON)" />
       <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
