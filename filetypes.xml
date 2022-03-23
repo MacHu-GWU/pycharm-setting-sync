@@ -6,6 +6,7 @@
       <mapping pattern="version" type="AUTO_DETECTED" />
       <mapping pattern="credentials-target" type="AUTO_DETECTED" />
       <mapping pattern="config" type="AUTO_DETECTED" />
+      <mapping ext="avsc" type="JSON" />
       <mapping pattern="host" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile-backup" type="PLAIN_TEXT" />
       <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
