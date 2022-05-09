@@ -4,21 +4,21 @@
       <list>
         <JupyterConnectionParameters>
           <option name="authType" value="notebook" />
-          <option name="token" value="414f5defeb76d07d21dce56cf3f4ff01b9192b97332f4745" />
-          <option name="urlString" value="http://127.0.0.1:8888/" />
+          <option name="token" value="679708bd957fb4a8e57452205d71dd67cc23efefb7f1064b" />
+          <option name="urlString" value="http://127.0.0.1:8888/lab" />
           <authParams2>
             <map>
-              <entry key="token" value="414f5defeb76d07d21dce56cf3f4ff01b9192b97332f4745" />
+              <entry key="token" value="679708bd957fb4a8e57452205d71dd67cc23efefb7f1064b" />
             </map>
           </authParams2>
         </JupyterConnectionParameters>
         <JupyterConnectionParameters>
           <option name="authType" value="notebook" />
-          <option name="token" value="414f5defeb76d07d21dce56cf3f4ff01b9192b97332f4745" />
-          <option name="urlString" value="http://localhost:8888/" />
+          <option name="token" value="679708bd957fb4a8e57452205d71dd67cc23efefb7f1064b" />
+          <option name="urlString" value="http://localhost:8888/lab" />
           <authParams2>
             <map>
-              <entry key="token" value="414f5defeb76d07d21dce56cf3f4ff01b9192b97332f4745" />
+              <entry key="token" value="679708bd957fb4a8e57452205d71dd67cc23efefb7f1064b" />
             </map>
           </authParams2>
         </JupyterConnectionParameters>
@@ -36,14 +36,7 @@
         <entry key="$USER_HOME$/Documents/GitHub/aws_dla_cox_auto-project/.idea/aws_dla_cox_auto-project.iml">
           <value>
             <JupyterConnectionParameters>
-              <option name="authType" value="notebook" />
-              <option name="token" value="414f5defeb76d07d21dce56cf3f4ff01b9192b97332f4745" />
-              <option name="urlString" value="http://127.0.0.1:8888/" />
-              <authParams2>
-                <map>
-                  <entry key="token" value="414f5defeb76d07d21dce56cf3f4ff01b9192b97332f4745" />
-                </map>
-              </authParams2>
+              <option name="managed" value="true" />
             </JupyterConnectionParameters>
           </value>
         </entry>
