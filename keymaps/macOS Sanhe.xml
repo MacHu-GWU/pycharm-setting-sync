@@ -6,6 +6,7 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
