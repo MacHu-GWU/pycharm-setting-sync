@@ -17,6 +17,9 @@
   <action id="Tool_External Tools_Run Bash">
     <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
+  <action id="Tool_External Tools_Run Black">
+    <keyboard-shortcut first-keystroke="ctrl meta k" />
+  </action>
   <action id="Tool_External Tools_Run with Bash">
     <keyboard-shortcut first-keystroke="shift back_quote" />
   </action>
