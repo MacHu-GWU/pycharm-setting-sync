@@ -22,8 +22,8 @@
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
       <mapping pattern="Dockefile" type="PLAIN_TEXT" />
       <mapping pattern="get-config-value" type="PLAIN_TEXT" />
-      <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern=".coverage" type="PLAIN_TEXT" />
+      <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
       <mapping pattern="hunter-kapacuk-marksman-pve-lv80" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
