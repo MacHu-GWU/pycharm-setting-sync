@@ -27,7 +27,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="testthis" value="# -*- coding: utf-8 -*-&#10;&#10;import os&#10;import pytest&#10;&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    basename = os.path.basename(__file__)&#10;    pytest.main([basename, &quot;-s&quot;, &quot;--tb=native&quot;])&#10;" description="Run unittest in this file" toReformat="false" toShortenFQNames="true">
+  <template name="testthis" value="# -*- coding: utf-8 -*-&#10;&#10;import os&#10;&#10;os.environ[&quot;PYTEST_UNIT_TEST&quot;] = &quot;Y&quot;&#10;import pytest&#10;&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    basename = os.path.basename(__file__)&#10;    pytest.main([basename, &quot;-s&quot;, &quot;--tb=native&quot;])&#10;" description="Run unittest in this file" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
