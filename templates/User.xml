@@ -1,0 +1,362 @@
+<templateSet group="User">
+  <template name="docstrmethod" value="&quot;&quot;&quot;&#10;$title$&#10;&#10;$description$&#10;&#10;:param parameter1: parameter1_description.&#10;:type parameter1: parameter1_type&#10;&#10;:returns: return_description&#10;:rtype: return_type&#10;&quot;&quot;&quot;" description="Doc String for Method" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="docstr" value="&quot;&quot;&quot;&#10;$docstring$&#10;&quot;&quot;&quot;" description="Add Doc String" toReformat="false" toShortenFQNames="true">
+    <variable name="docstring" expression="" defaultValue="&quot;docstring&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="nocover" value="# pragma: no cover" description="Doc String for Method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="shebangpython" value="#!/usr/bin/env python&#10;# -*- coding: utf-8 -*-&#10;&#10;" description="Python Shebang" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="testall" value="# -*- coding: utf-8 -*-&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    import pytest&#10;&#10;    pytest.main([&quot;-s&quot;, &quot;--tb=native&quot;])&#10;" description="Run unittest in this direcotry" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="testthis" value="# -*- coding: utf-8 -*-&#10;&#10;import os&#10;&#10;os.environ[&quot;PYTEST_UNIT_TEST&quot;] = &quot;Y&quot;&#10;import pytest&#10;&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    basename = os.path.basename(__file__)&#10;    pytest.main([basename, &quot;-s&quot;, &quot;--tb=native&quot;])&#10;" description="Run unittest in this file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="impfuture" value="from __future__ import (&#10;  print_function, unicode_literals, absolute_import,&#10;  division, generators,&#10;)&#10;&#10;" description="from __future__ import xxx" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="impnumpypandas" value="import numpy as np, pandas as pd&#10;&#10;" description="import numpy, pandas" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="imppytest" value="import pytest&#10;from pytest import approx&#10;&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;&#9;import os&#10;&#10;&#9;pytest.main([os.path.basename(__file__), &quot;--tb=native&quot;, &quot;-s&quot;])" description="import pytest" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="impsqlalchemycore" value="from sqlalchemy import create_engine, MetaData, Table, Column&#10;from sqlalchemy import String, Integer, Float, Date, DateTime, LargeBinary&#10;from sqlalchemy import select, and_, or_, not_, func&#10;&#10;" description="import numpy, pandas" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="link" value="`$Text$ &lt;$Target$&gt;`_" description="Link to url" toReformat="false" toShortenFQNames="true">
+    <variable name="Text" expression="" defaultValue="&quot;Text&quot;" alwaysStopAt="true" />
+    <variable name="Target" expression="" defaultValue="&quot;Target&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="footer" value=".. footer:: $Footer_of_the_page$&#10;&#10;" description="Footer of the page" toReformat="false" toShortenFQNames="true">
+    <variable name="Footer_of_the_page" expression="" defaultValue="&quot;Footer of the page&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="footnote" value=".. [#] $description$.&#10;&#10;" description="Footnote" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ltable" value=".. list-table:: $Title_of_the_table$&#10;    :widths: 10 10 10&#10;    :header-rows: 1&#10;&#10;    * - $Header1$&#10;      - $Header2$&#10;      - $Header3$&#10;    * - $Value1$&#10;      - $Value2$&#10;      - $Value3$&#10;&#10;" description="List Table" toReformat="false" toShortenFQNames="true">
+    <variable name="Title_of_the_table" expression="" defaultValue="&quot;Title of the table&quot;" alwaysStopAt="true" />
+    <variable name="Header1" expression="" defaultValue="&quot;Header1&quot;" alwaysStopAt="true" />
+    <variable name="Header2" expression="" defaultValue="&quot;Header2&quot;" alwaysStopAt="true" />
+    <variable name="Header3" expression="" defaultValue="&quot;Header3&quot;" alwaysStopAt="true" />
+    <variable name="Value1" expression="" defaultValue="&quot;Value1&quot;" alwaysStopAt="true" />
+    <variable name="Value2" expression="" defaultValue="&quot;Value2&quot;" alwaysStopAt="true" />
+    <variable name="Value3" expression="" defaultValue="&quot;Value3&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sectnum" value=".. sectnum::&#10;    :depth: 3&#10;    :prefix: $Prefix$&#10;    :surfix: $Surfix$&#10;    :start: 1&#10;&#10;" description="Auto Number Sections" toReformat="false" toShortenFQNames="true">
+    <variable name="Prefix" expression="" defaultValue="&quot;Prefix&quot;" alwaysStopAt="true" />
+    <variable name="Surfix" expression="" defaultValue="&quot;Surfix&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="image" value=".. image:: $url$&#10;&#10;" description="Image" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="toc" value=".. contents::&#10;    :depth: 1&#10;    :local:&#10;&#10;" description="Table of content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="header" value=".. header:: $Header_of_the_page$&#10;&#10;" description="Header of the page" toReformat="false" toShortenFQNames="true">
+    <variable name="Header_of_the_page" expression="" defaultValue="&quot;Header of the page&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="imagestyled" value=".. image:: $url$&#10;    :alt: $Image_Not_Found$&#10;    :height: $600$ px&#10;    :width: $800$ px&#10;    :align: $left_right_or_center$&#10;    :target: $target$&#10;&#10;" description="Styled Image" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
+    <variable name="Image_Not_Found" expression="" defaultValue="&quot;Image Not Found&quot;" alwaysStopAt="true" />
+    <variable name="600" expression="" defaultValue="&quot;600&quot;" alwaysStopAt="true" />
+    <variable name="800" expression="" defaultValue="&quot;800&quot;" alwaysStopAt="true" />
+    <variable name="left_right_or_center" expression="" defaultValue="&quot;left right or center&quot;" alwaysStopAt="true" />
+    <variable name="target" expression="" defaultValue="&quot;target&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="include" value=".. include:: $path$&#10;&#10;" description="Includee External File" toReformat="false" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="linkanywhere" value="`$Text$ &lt;$Target$_&gt;`_" description="Link anywhere" toReformat="false" toShortenFQNames="true">
+    <variable name="Text" expression="" defaultValue="&quot;Text&quot;" alwaysStopAt="true" />
+    <variable name="Target" expression="" defaultValue="&quot;Target&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="img" value=".. image:: $url$&#10;&#10;" description="Image" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="imgstyled" value=".. image:: $url$&#10;    :alt: $Image_Not_Found$&#10;    :height: $600$ px&#10;    :width: $800$ px&#10;    :align: $left_right_or_center$&#10;    :target: $target$&#10;&#10;" description="Styled Image" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
+    <variable name="Image_Not_Found" expression="" defaultValue="&quot;Image Not Found&quot;" alwaysStopAt="true" />
+    <variable name="600" expression="" defaultValue="&quot;600&quot;" alwaysStopAt="true" />
+    <variable name="800" expression="" defaultValue="&quot;800&quot;" alwaysStopAt="true" />
+    <variable name="left_right_or_center" expression="" defaultValue="&quot;left right or center&quot;" alwaysStopAt="true" />
+    <variable name="target" expression="" defaultValue="&quot;target&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="code" value=".. code-block:: $language$&#10;&#10;    $code$&#10;" description="Syntax Highlighted Code" toReformat="false" toShortenFQNames="true">
+    <variable name="language" expression="" defaultValue="&quot;language&quot;" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codebash" value=".. code-block:: bash&#10;&#10;    $code$&#10;" description="Bash Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codescala" value=".. code-block:: scala&#10;&#10;    $code$&#10;" description="Scala Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codebatch" value=".. code-block:: batch&#10;&#10;    $code$&#10;" description="Windows Batch File Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="coderest" value=".. code-block:: ReST&#10;&#10;    $code$&#10;" description="RestructuredText Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="coderuby" value=".. code-block:: ruby&#10;&#10;    $code$&#10;" description="Ruby Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codehtml" value=".. code-block:: html&#10;&#10;    $code$&#10;" description="Html Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codejs" value=".. code-block:: javascript&#10;&#10;    $code$&#10;" description="JavaScript Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codepython" value=".. code-block:: python&#10;&#10;    $code$&#10;" description="Python Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codesql" value=".. code-block:: SQL&#10;&#10;    $code$&#10;" description="SQL Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codejinja2" value=".. code-block:: jinja&#10;&#10;    $code$&#10;" description="Jinja2 Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codemakefile" value=".. code-block:: Makefiles&#10;&#10;    $code$&#10;" description="Makefile Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="codecoffeescript" value=".. code-block:: coffeescript&#10;&#10;    $code$&#10;" description="CoffeeScript Code" toReformat="false" toShortenFQNames="true">
+    <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="seealso" value=".. seealso::&#10;&#10;    $message$&#10;&#10;" description="See Also" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="hlist" value=".. hlist::&#10;    :columns: $n_columns$&#10;&#10;    * $item1$&#10;    * $item2$&#10;    * $item3$&#10;&#10;" description="Horizontal Compact List" toReformat="false" toShortenFQNames="true">
+    <variable name="n_columns" expression="" defaultValue="&quot;n_columns&quot;" alwaysStopAt="true" />
+    <variable name="item1" expression="" defaultValue="&quot;item1&quot;" alwaysStopAt="true" />
+    <variable name="item2" expression="" defaultValue="&quot;item2&quot;" alwaysStopAt="true" />
+    <variable name="item3" expression="" defaultValue="&quot;item3&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="warning" value=".. warning::&#10;&#10;    $message$&#10;&#10;" description="Warning" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="deprecated" value=".. deprecated:: $verion$&#10;&#10;    $message$&#10;&#10;" description="Deprecated" toReformat="false" toShortenFQNames="true">
+    <variable name="verion" expression="" defaultValue="&quot;verion&quot;" alwaysStopAt="true" />
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="note" value=".. note::&#10;&#10;    $message$&#10;&#10;" description="Note" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="versionchanged" value=".. versionchanged:: $verion$&#10;&#10;    $message$&#10;&#10;" description="Version Changed" toReformat="false" toShortenFQNames="true">
+    <variable name="verion" expression="" defaultValue="&quot;verion&quot;" alwaysStopAt="true" />
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="versionadded" value=".. versionadded:: $verion$&#10;&#10;    $message$&#10;&#10;" description="Version Added" toReformat="false" toShortenFQNames="true">
+    <variable name="verion" expression="" defaultValue="&quot;verion&quot;" alwaysStopAt="true" />
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="centered" value=".. centered:: $message$&#10;&#10;" description="Centered Boldfaced Line of Text" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="shebangbash" value="#!/bin/bash&#10;# -*- coding: utf-8 -*-&#10;&#10;" description="Bash Shebang" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Bash" value="true" />
+    </context>
+  </template>
+  <template name="h7" value="$header7$&#10;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;" description="Header 7" toReformat="false" toShortenFQNames="true">
+    <variable name="header7" expression="" defaultValue="&quot;header7&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h1" value="$header1$&#10;==============================================================================&#10;" description="Header 1" toReformat="false" toShortenFQNames="true">
+    <variable name="header1" expression="" defaultValue="&quot;header1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h6" value="$header6$&#10;##############################################################################&#10;" description="Header 6" toReformat="false" toShortenFQNames="true">
+    <variable name="header6" expression="" defaultValue="&quot;header6&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h3" value="$header3$&#10;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&#10;" description="Header 3" toReformat="false" toShortenFQNames="true">
+    <variable name="header3" expression="" defaultValue="&quot;header3&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="utf8shebang" value="# -*- coding: utf-8 -*-&#10;&#10;" description="Utf8 Encoding Shebang" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h4" value="$header4$&#10;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++&#10;" description="Header 4" toReformat="false" toShortenFQNames="true">
+    <variable name="header4" expression="" defaultValue="&quot;header4&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h5" value="$header5$&#10;******************************************************************************&#10;" description="Header 5" toReformat="false" toShortenFQNames="true">
+    <variable name="header5" expression="" defaultValue="&quot;header5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="h2" value="$header2$&#10;------------------------------------------------------------------------------&#10;" description="Header 2" toReformat="false" toShortenFQNames="true">
+    <variable name="header2" expression="" defaultValue="&quot;header2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="toc-furo-theme" value=".. contents::&#10;    :class: this-will-duplicate-information-and-it-is-still-useful-here&#10;    :depth: 1&#10;    :local:&#10;" description="Table of content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="autotoctree" value=".. autotoctree::&#10;    :maxdepth: 1&#10;" description="Sphinx auto table of content tree" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="asciicodeblock" value="#---------------------------------------------------------------------&#10;# Begin: $title$&#10;&#10;# End: $title$&#10;#---------------------------------------------------------------------" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="literalinclude" value=".. literalinclude:: $filename$&#10;   :language: $language$&#10;   :emphasize-lines: $line1$,$line2$-$line3$&#10;   :linenos:&#10;&#10;" description="literal include another file in restructured text" toReformat="false" toShortenFQNames="true">
+    <variable name="filename" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="language" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="line1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="line2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="line3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
