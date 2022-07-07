@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="/home/ec2-user/$ProjectName$/$FileRelativeDir$" />
     </exec>
   </tool>
+  <tool name="Run Glue Test Remotely" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="REMOTE_SDK" CONNECTION_ID="sftp://ec2-user@3.90.253.88:22/home/ec2-user/aws_data_lab_glue_ci_example-project/venv/bin/python">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/docker" />
+      <option name="PARAMETERS" value="run -it -v /home/ec2-user/.aws:/home/glue_user/.aws -v /home/ec2-user/aws_data_lab_glue_ci_example-project/:/home/glue_user/workspace/ -e AWS_REGION=us-east-1 -e AWS_ACCESS_KEY_ID=AKIAXJLBPTJMEGKCLQPP -e AWS_SECRET_ACCESS_KEY=mcVEh+w1Q4rTbIqpb1RwQ5E4rpaoBeH697RlhxMg -e DISABLE_SSL=true --rm -p 4040:4040 -p 18080:18080 --name glue_pytest amazon/aws-glue-libs:glue_libs_3.0.0_image_01 -c &quot;python3 -m pytest tests/$FileName$ --disable-warnings&quot;" />
+      <option name="WORKING_DIRECTORY" value="/home/ec2-user/$ProjectName$/$FileRelativeDir$" />
+    </exec>
+  </tool>
 </toolSet>
