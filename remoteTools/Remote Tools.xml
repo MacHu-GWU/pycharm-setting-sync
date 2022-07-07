@@ -1,9 +1,9 @@
 <toolSet name="Remote Tools">
-  <tool name="Run Bash Remotely" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="SSH_CONFIG" CONNECTION_ID="ec2-user@44.195.85.138:22 key">
+  <tool name="Run Bash Remotely" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="REMOTE_SDK" CONNECTION_ID="sftp://ec2-user@3.90.253.88:22/home/ec2-user/aws_data_lab_glue_ci_example-project/venv/bin/python">
     <exec>
       <option name="COMMAND" value="/bin/bash" />
       <option name="PARAMETERS" value="$FileName$" />
-      <option name="WORKING_DIRECTORY" value="/tmp/pycharm-projects/$ProjectName$/$FileRelativeDir$" />
+      <option name="WORKING_DIRECTORY" value="/home/ec2-user/$ProjectName$/$FileRelativeDir$" />
     </exec>
   </tool>
 </toolSet>
