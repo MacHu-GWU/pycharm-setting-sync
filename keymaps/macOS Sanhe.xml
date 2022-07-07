@@ -14,6 +14,9 @@
   <action id="RemoteTool_Remote Tools_Run Bash Remotely">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
+  <action id="RemoteTool_Remote Tools_Run Glue Test Remotely">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="Tool_External Tools_Run Bash">
     <keyboard-shortcut first-keystroke="alt back_quote" />
   </action>
