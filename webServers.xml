@@ -34,6 +34,15 @@
       <webServer id="dcda2cf3-cfca-484f-811e-c4114b74501d" name="aws-data-lab-sanhe/us-east-2/ec2/sanhe-glue-remote-dev">
         <fileTransfer accessType="SFTP" host="3.90.253.88" port="22" sshConfigId="8f293fe0-8707-4363-9d4b-503802b8db45" sshConfig="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev" keyPair="true" />
       </webServer>
+      <webServer id="a76e70de-e848-468b-a64d-ff904c61ba4d" name="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev">
+        <fileTransfer accessType="SFTP" host="3.90.253.88" port="22" sshConfigId="8f293fe0-8707-4363-9d4b-503802b8db45" sshConfig="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev" keyPair="true" />
+      </webServer>
+      <webServer id="837de6c9-0c47-4d82-94a5-0526427950bd" name="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev">
+        <fileTransfer accessType="SFTP" host="3.90.253.88" port="22" sshConfigId="8f293fe0-8707-4363-9d4b-503802b8db45" sshConfig="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev" keyPair="true" />
+      </webServer>
+      <webServer id="b31e7853-a504-4fe8-8ea1-4cd03c104c70" name="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev">
+        <fileTransfer accessType="SFTP" host="3.90.253.88" port="22" sshConfigId="8f293fe0-8707-4363-9d4b-503802b8db45" sshConfig="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev" keyPair="true" />
+      </webServer>
     </option>
   </component>
 </application>
