@@ -1,15 +1,9 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="3.142.43.13" id="a973d319-b169-405e-a1f9-cd2c543727ab" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="aws-data-lab-sanhe/us-east-2/cloud9/sanhe-dev" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="true">
-        <option name="customName" value="aws-data-lab-sanhe/us-east-2/cloud9/sanhe-dev" />
-      </sshConfig>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="3.90.253.88" id="8f293fe0-8707-4363-9d4b-503802b8db45" keyPath="$USER_HOME$/ec2-pem/aws-data-lab-opensource/us-east-1/aws-data-lab-opensource-sanhe-dev.pem" port="22" customName="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="false">
-        <option name="customName" value="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev" />
-      </sshConfig>
-      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="18.222.123.236" id="fdd17fcb-a6dd-4ed3-a0be-8e16ff0066b6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="aws-data-lab-sanhe/us-east-2/ec2/ssh-test-delete-soon" nameFormat="CUSTOM" username="ec2-user" useOpenSSHConfig="false">
-        <option name="customName" value="aws-data-lab-sanhe/us-east-2/ec2/ssh-test-delete-soon" />
-      </sshConfig>
+      <sshConfig host="3.142.43.13" id="a973d319-b169-405e-a1f9-cd2c543727ab" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="3.90.253.88" id="8f293fe0-8707-4363-9d4b-503802b8db45" keyPath="$USER_HOME$/ec2-pem/aws-data-lab-opensource/us-east-1/aws-data-lab-opensource-sanhe-dev.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="false" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="18.222.123.236" id="fdd17fcb-a6dd-4ed3-a0be-8e16ff0066b6" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="false" />
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="3.225.243.100" id="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" keyPath="$USER_HOME$/ec2-pem/aws-data-lab-sanhe-dev.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" />
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="44.192.1.174" id="30194013-bac0-42ee-a29a-f622ce11fac0" keyPath="$USER_HOME$/ec2-pem/aws-data-lab-sanhe-dev.pem" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
     </configs>

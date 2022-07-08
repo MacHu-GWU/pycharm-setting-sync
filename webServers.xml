@@ -32,7 +32,7 @@
         <fileTransfer accessType="SFTP" host="3.225.243.100" port="22" sshConfigId="d0dcf71f-1fee-4cb5-b9d0-f04e7ac6b055" sshConfig="ec2-user@3.225.243.100:22 key" keyPair="true" />
       </webServer>
       <webServer id="b31e7853-a504-4fe8-8ea1-4cd03c104c70" name="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev">
-        <fileTransfer accessType="SFTP" host="3.90.253.88" port="22" sshConfigId="8f293fe0-8707-4363-9d4b-503802b8db45" sshConfig="aws-data-lab-opensource/us-east-1/ec2/sanhe-glue-remote-dev" keyPair="true" />
+        <fileTransfer accessType="SFTP" host="3.90.253.88" port="22" sshConfigId="8f293fe0-8707-4363-9d4b-503802b8db45" sshConfig="ec2-user@3.90.253.88:22 key" keyPair="true" />
       </webServer>
     </option>
   </component>
