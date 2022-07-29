@@ -1,0 +1,32 @@
+<keymap version="1" name="macOS Sanhe" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="RemoteTool_Remote Tools_Run Bash Remotely">
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
+  </action>
+  <action id="RemoteTool_Remote Tools_Run Glue Test Remotely">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="Tool_External Tools_Run Bash">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+  </action>
+  <action id="Tool_External Tools_Run Black">
+    <keyboard-shortcut first-keystroke="ctrl meta k" />
+  </action>
+  <action id="Tool_External Tools_Run with Bash">
+    <keyboard-shortcut first-keystroke="shift back_quote" />
+  </action>
+  <action id="WebDeployment.BrowseServers">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+</keymap>
