@@ -6,6 +6,7 @@
       <mapping pattern="credentials-target" type="AUTO_DETECTED" />
       <mapping pattern="2022-01-12-PolicyGenius" type="AUTO_DETECTED" />
       <mapping pattern="config" type="AUTO_DETECTED" />
+      <mapping ext="template" type="AWSCloudFormation (JSON)" />
       <mapping ext="avsc" type="JSON" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping pattern=".ebignore" type="PLAIN_TEXT" />
@@ -32,6 +33,7 @@
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="drawio" type="PLAIN_TEXT" />
       <mapping ext="q" type="PLAIN_TEXT" />
+      <mapping ext="txt" type="PLAIN_TEXT" />
       <mapping ext="wtf" type="PLAIN_TEXT" />
       <mapping ext="qml" type="PLAIN_TEXT" />
       <mapping ext="doctree" type="PLAIN_TEXT" />
@@ -40,17 +42,20 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
-      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
+      <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
+      <removed_mapping pattern=".ebignore" approved="true" type="ElasticBeanstalk File" />
       <removed_mapping pattern=".ebignore" approved="true" type="ElasticBeanstalk File" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
-      <mapping ext="template" type="AWSCloudFormation (JSON)" />
       <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
