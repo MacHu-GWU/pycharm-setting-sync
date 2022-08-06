@@ -32,7 +32,6 @@
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="drawio" type="PLAIN_TEXT" />
       <mapping ext="q" type="PLAIN_TEXT" />
-      <mapping ext="txt" type="PLAIN_TEXT" />
       <mapping ext="wtf" type="PLAIN_TEXT" />
       <mapping ext="qml" type="PLAIN_TEXT" />
       <mapping ext="doctree" type="PLAIN_TEXT" />
@@ -41,15 +40,10 @@
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping ext="plist" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
-      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="txt" approved="true" type="requirements.txt" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
-      <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
-      <removed_mapping pattern=".ebignore" approved="true" type="ElasticBeanstalk File" />
       <removed_mapping pattern=".ebignore" approved="true" type="ElasticBeanstalk File" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
