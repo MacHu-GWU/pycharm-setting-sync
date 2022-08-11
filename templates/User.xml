@@ -359,4 +359,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="covthis" value="# -*- coding: utf-8 -*-&#10;&#10;import os&#10;&#10;os.environ[&quot;PYTEST_UNIT_TEST&quot;] = &quot;Y&quot;&#10;&#10;import pytest&#10;&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    import sys&#10;    import subprocess&#10;&#10;    abspath = os.path.abspath(__file__)&#10;    dir_project_root = os.path.dirname(abspath)&#10;    for _ in range(10):&#10;        if os.path.exists(os.path.join(dir_project_root, &quot;.git&quot;)):&#10;            break&#10;        else:&#10;            dir_project_root = os.path.dirname(dir_project_root)&#10;    else:&#10;        raise FileNotFoundError(&quot;cannot find project root dir!&quot;)&#10;    dir_htmlcov = os.path.join(dir_project_root, &quot;htmlcov&quot;)&#10;    bin_pytest = os.path.join(os.path.dirname(sys.executable), &quot;pytest&quot;)&#10;&#10;    args = [&#10;        bin_pytest,&#10;        &quot;-s&quot;, &quot;--tb=native&quot;,&#10;        f&quot;--rootdir={dir_project_root}&quot;,&#10;        &quot;--cov=MY_PACKAGE.MY_MODULE&quot;,&#10;        &quot;--cov-report&quot;, &quot;term-missing&quot;,&#10;        &quot;--cov-report&quot;, f&quot;html:{dir_htmlcov}&quot;,&#10;        abspath,&#10;    ]&#10;    subprocess.run(args, check=True)&#10;" description="Run unittest in this file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
