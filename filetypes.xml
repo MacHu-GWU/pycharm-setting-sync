@@ -6,6 +6,7 @@
       <mapping pattern="credentials-target" type="AUTO_DETECTED" />
       <mapping pattern="2022-01-12-PolicyGenius" type="AUTO_DETECTED" />
       <mapping pattern="config" type="AUTO_DETECTED" />
+      <mapping ext="lua" type="AUTO_DETECTED" />
       <mapping ext="avsc" type="JSON" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
       <mapping pattern=".ebignore" type="PLAIN_TEXT" />
