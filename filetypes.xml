@@ -3,30 +3,24 @@
     <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping pattern="version" type="AUTO_DETECTED" />
-      <mapping pattern="credentials-target" type="AUTO_DETECTED" />
       <mapping pattern="2022-01-12-PolicyGenius" type="AUTO_DETECTED" />
       <mapping pattern="config" type="AUTO_DETECTED" />
+      <mapping pattern="credentials-target" type="AUTO_DETECTED" />
       <mapping ext="template" type="AWSCloudFormation (JSON)" />
       <mapping ext="avsc" type="JSON" />
       <mapping pattern=".python-version" type="PLAIN_TEXT" />
-      <mapping pattern=".ebignore" type="PLAIN_TEXT" />
-      <mapping pattern="Jenkinsfile-backup" type="PLAIN_TEXT" />
-      <mapping pattern="host" type="PLAIN_TEXT" />
       <mapping pattern=".coveragerc" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile4" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".credentials" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile1" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile2" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile3" type="PLAIN_TEXT" />
-      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
-      <mapping pattern="Dockefile" type="PLAIN_TEXT" />
       <mapping pattern=".coverage" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
+      <mapping pattern="tag_name" type="PLAIN_TEXT" />
+      <mapping pattern=".ebignore" type="PLAIN_TEXT" />
+      <mapping pattern="host" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="CODEOWNERS" type="PLAIN_TEXT" />
+      <mapping pattern="Dockefile" type="PLAIN_TEXT" />
       <mapping pattern="get-config-value" type="PLAIN_TEXT" />
       <mapping pattern="repo_name" type="PLAIN_TEXT" />
-      <mapping pattern="tag_name" type="PLAIN_TEXT" />
-      <mapping pattern="hunter-kapacuk-marksman-pve-lv80" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="rsp" type="PLAIN_TEXT" />
@@ -43,10 +37,17 @@
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="lua" approved="true" type="AUTO_DETECTED" />
+      <removed_mapping ext="lua" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="txt" approved="true" type="requirements.txt" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
       <removed_mapping pattern=".ebignore" approved="true" type="ElasticBeanstalk File" />
+      <removed_mapping pattern="Dockerfile1" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Dockerfile2" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Dockerfile3" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Dockerfile4" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Jenkinsfile-backup" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="hunter-kapacuk-marksman-pve-lv80" approved="true" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
