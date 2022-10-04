@@ -21,6 +21,7 @@
       <mapping pattern="get-config-value" type="PLAIN_TEXT" />
       <mapping pattern="repo_name" type="PLAIN_TEXT" />
       <mapping pattern="tag_name" type="PLAIN_TEXT" />
+      <mapping ext="liquid-backup" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="rsp" type="PLAIN_TEXT" />
