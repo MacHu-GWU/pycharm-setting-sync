@@ -29,6 +29,7 @@
       <mapping ext="liquid-backup" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping ext="avro" type="PLAIN_TEXT" />
       <mapping ext="rsp" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
       <mapping ext="drawio" type="PLAIN_TEXT" />
