@@ -1,4 +1,24 @@
 <profile version="1.0">
   <option name="myName" value="Default" />
   <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredPackages">
+      <value>
+        <list size="11">
+          <item index="0" class="java.lang.String" itemvalue="boto3" />
+          <item index="1" class="java.lang.String" itemvalue="pytest" />
+          <item index="2" class="java.lang.String" itemvalue="pytest-cov" />
+          <item index="3" class="java.lang.String" itemvalue="atomicwrites" />
+          <item index="4" class="java.lang.String" itemvalue="pluggy" />
+          <item index="5" class="java.lang.String" itemvalue="bleach" />
+          <item index="6" class="java.lang.String" itemvalue="smart-open" />
+          <item index="7" class="java.lang.String" itemvalue="psycopg2" />
+          <item index="8" class="java.lang.String" itemvalue="py" />
+          <item index="9" class="java.lang.String" itemvalue="requests" />
+          <item index="10" class="java.lang.String" itemvalue="attrs" />
+        </list>
+      </value>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
 </profile>
