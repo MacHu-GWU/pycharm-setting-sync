@@ -364,4 +364,9 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="dropdown" value=".. dropdown:: Dropdown title&#10;    :open:&#10;    :icon: set oction icon, see https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#octicon-icons&#10;" description="sphinx-design dropdown menu" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>

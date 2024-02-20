@@ -8,9 +8,6 @@
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
-  <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="ctrl down" />
-  </action>
   <action id="RemoteTool_Remote Tools_Run Bash Remotely">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
