@@ -284,6 +284,7 @@
   <template name="shebangbash" value="#!/bin/bash&#10;# -*- coding: utf-8 -*-&#10;&#10;" description="Bash Shebang" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Bash" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
     </context>
   </template>
   <template name="h7" value="$header7$&#10;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;" description="Header 7" toReformat="false" toShortenFQNames="true">
@@ -367,6 +368,55 @@
   <template name="dropdown" value=".. dropdown:: Dropdown title&#10;    :open:&#10;    :icon: set oction icon, see https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#octicon-icons&#10;" description="sphinx-design dropdown menu" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="important" value=".. important::&#10;&#10;    text here&#10;" description="furo-theme important admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="hint" value=".. hint::&#10;&#10;    text here&#10;" description="furo-theme hint admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="attention" value=".. attention::&#10;&#10;    text here&#10;" description="furo-theme attention admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="caution" value=".. caution::&#10;&#10;    text here&#10;" description="furo-theme caution admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="danger" value=".. danger::&#10;&#10;    text here&#10;" description="furo-theme danger admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tip" value=".. danger::&#10;&#10;    text here&#10;" description="furo-theme tip admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
 </templateSet>

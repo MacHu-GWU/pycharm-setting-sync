@@ -14,8 +14,8 @@
   <action id="RemoteTool_Remote Tools_Run Glue Test Remotely">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
-  <action id="Tool_External Tools_Run Bash">
-    <keyboard-shortcut first-keystroke="alt back_quote" />
+  <action id="Tool_External Tools_Open in Sublime Text">
+    <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
   <action id="Tool_External Tools_Run Black">
     <keyboard-shortcut first-keystroke="ctrl meta k" />
