@@ -1,0 +1,7 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="RestructuredText.rst" file-name="README.rst" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</application>

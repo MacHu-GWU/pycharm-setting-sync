@@ -1,14 +1,14 @@
 <toolSet name="External Tools">
-  <tool name="Run Bash" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Run Black" description="Reformat code style using black" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="/bin/bash" />
+      <option name="COMMAND" value="$USER_HOME$/.pyenv/shims/black" />
       <option name="PARAMETERS" value="$FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="Run Black" description="Reformat code style using black" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Open in Sublime Text" description="Open selected file in Sublimt Text" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/.pyenv/shims/black" />
+      <option name="COMMAND" value="/Applications/Sublime Text.app" />
       <option name="PARAMETERS" value="$FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>

@@ -56,19 +56,73 @@
     <variable name="Text" expression="" defaultValue="&quot;Text&quot;" alwaysStopAt="true" />
     <variable name="Target" expression="" defaultValue="&quot;Target&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="footer" value=".. footer:: $Footer_of_the_page$&#10;&#10;" description="Footer of the page" toReformat="false" toShortenFQNames="true">
     <variable name="Footer_of_the_page" expression="" defaultValue="&quot;Footer of the page&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="footnote" value=".. [#] $description$.&#10;&#10;" description="Footnote" toReformat="false" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="ltable" value=".. list-table:: $Title_of_the_table$&#10;    :widths: 10 10 10&#10;    :header-rows: 1&#10;&#10;    * - $Header1$&#10;      - $Header2$&#10;      - $Header3$&#10;    * - $Value1$&#10;      - $Value2$&#10;      - $Value3$&#10;&#10;" description="List Table" toReformat="false" toShortenFQNames="true">
@@ -80,25 +134,97 @@
     <variable name="Value2" expression="" defaultValue="&quot;Value2&quot;" alwaysStopAt="true" />
     <variable name="Value3" expression="" defaultValue="&quot;Value3&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="sectnum" value=".. sectnum::&#10;    :depth: 3&#10;    :prefix: $Prefix$&#10;    :surfix: $Surfix$&#10;    :start: 1&#10;&#10;" description="Auto Number Sections" toReformat="false" toShortenFQNames="true">
     <variable name="Prefix" expression="" defaultValue="&quot;Prefix&quot;" alwaysStopAt="true" />
     <variable name="Surfix" expression="" defaultValue="&quot;Surfix&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="image" value=".. image:: $url$&#10;&#10;" description="Image" toReformat="false" toShortenFQNames="true">
     <variable name="url" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="toc" value=".. contents::&#10;    :depth: 1&#10;    :local:&#10;&#10;" description="Table of content" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="header" value=".. header:: $Header_of_the_page$&#10;&#10;" description="Header of the page" toReformat="false" toShortenFQNames="true">
@@ -115,26 +241,99 @@
     <variable name="left_right_or_center" expression="" defaultValue="&quot;left right or center&quot;" alwaysStopAt="true" />
     <variable name="target" expression="" defaultValue="&quot;target&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="include" value=".. include:: $path$&#10;&#10;" description="Includee External File" toReformat="false" toShortenFQNames="true">
     <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="linkanywhere" value="`$Text$ &lt;$Target$_&gt;`_" description="Link anywhere" toReformat="false" toShortenFQNames="true">
     <variable name="Text" expression="" defaultValue="&quot;Text&quot;" alwaysStopAt="true" />
     <variable name="Target" expression="" defaultValue="&quot;Target&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="img" value=".. image:: $url$&#10;&#10;" description="Image" toReformat="false" toShortenFQNames="true">
     <variable name="url" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="imgstyled" value=".. image:: $url$&#10;    :alt: $Image_Not_Found$&#10;    :height: $600$ px&#10;    :width: $800$ px&#10;    :align: $left_right_or_center$&#10;    :target: $target$&#10;&#10;" description="Styled Image" toReformat="false" toShortenFQNames="true">
@@ -152,7 +351,25 @@
     <variable name="language" expression="" defaultValue="&quot;language&quot;" alwaysStopAt="true" />
     <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="codebash" value=".. code-block:: bash&#10;&#10;    $code$&#10;" description="Bash Code" toReformat="false" toShortenFQNames="true">
@@ -170,13 +387,49 @@
   <template name="codebatch" value=".. code-block:: batch&#10;&#10;    $code$&#10;" description="Windows Batch File Code" toReformat="false" toShortenFQNames="true">
     <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="coderest" value=".. code-block:: ReST&#10;&#10;    $code$&#10;" description="RestructuredText Code" toReformat="false" toShortenFQNames="true">
     <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="coderuby" value=".. code-block:: ruby&#10;&#10;    $code$&#10;" description="Ruby Code" toReformat="false" toShortenFQNames="true">
@@ -194,19 +447,73 @@
   <template name="codejs" value=".. code-block:: javascript&#10;&#10;    $code$&#10;" description="JavaScript Code" toReformat="false" toShortenFQNames="true">
     <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="codepython" value=".. code-block:: python&#10;&#10;    $code$&#10;" description="Python Code" toReformat="false" toShortenFQNames="true">
     <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="codesql" value=".. code-block:: SQL&#10;&#10;    $code$&#10;" description="SQL Code" toReformat="false" toShortenFQNames="true">
     <variable name="code" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="codejinja2" value=".. code-block:: jinja&#10;&#10;    $code$&#10;" description="Jinja2 Code" toReformat="false" toShortenFQNames="true">
@@ -230,7 +537,25 @@
   <template name="seealso" value=".. seealso::&#10;&#10;    $message$&#10;&#10;" description="See Also" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="hlist" value=".. hlist::&#10;    :columns: $n_columns$&#10;&#10;    * $item1$&#10;    * $item2$&#10;    * $item3$&#10;&#10;" description="Horizontal Compact List" toReformat="false" toShortenFQNames="true">
@@ -239,51 +564,178 @@
     <variable name="item2" expression="" defaultValue="&quot;item2&quot;" alwaysStopAt="true" />
     <variable name="item3" expression="" defaultValue="&quot;item3&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="warning" value=".. warning::&#10;&#10;    $message$&#10;&#10;" description="Warning" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="deprecated" value=".. deprecated:: $verion$&#10;&#10;    $message$&#10;&#10;" description="Deprecated" toReformat="false" toShortenFQNames="true">
     <variable name="verion" expression="" defaultValue="&quot;verion&quot;" alwaysStopAt="true" />
     <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="note" value=".. note::&#10;&#10;    $message$&#10;&#10;" description="Note" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="versionchanged" value=".. versionchanged:: $verion$&#10;&#10;    $message$&#10;&#10;" description="Version Changed" toReformat="false" toShortenFQNames="true">
     <variable name="verion" expression="" defaultValue="&quot;verion&quot;" alwaysStopAt="true" />
     <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="versionadded" value=".. versionadded:: $verion$&#10;&#10;    $message$&#10;&#10;" description="Version Added" toReformat="false" toShortenFQNames="true">
     <variable name="verion" expression="" defaultValue="&quot;verion&quot;" alwaysStopAt="true" />
     <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="centered" value=".. centered:: $message$&#10;&#10;" description="Centered Boldfaced Line of Text" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="shebangbash" value="#!/bin/bash&#10;# -*- coding: utf-8 -*-&#10;&#10;" description="Bash Shebang" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Bash" value="true" />
+      <option name="SHELL_SCRIPT" value="true" />
     </context>
   </template>
   <template name="h7" value="$header7$&#10;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;" description="Header 7" toReformat="false" toShortenFQNames="true">
@@ -335,15 +787,52 @@
   </template>
   <template name="toc-furo-theme" value=".. contents::&#10;    :class: this-will-duplicate-information-and-it-is-still-useful-here&#10;    :depth: 1&#10;    :local:&#10;" description="Table of content" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="autotoctree" value=".. autotoctree::&#10;    :maxdepth: 1&#10;" description="Sphinx auto table of content tree" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
-  <template name="asciicodeblock" value="#---------------------------------------------------------------------&#10;# Begin: $title$&#10;&#10;# End: $title$&#10;#---------------------------------------------------------------------" description="" toReformat="false" toShortenFQNames="true">
+  <template name="asciicodeblock" value="#---------------------------------------------------------------------&#10;# Begin: $title$&#10;# Text here&#10;# End: $title$&#10;#---------------------------------------------------------------------" description="" toReformat="false" toShortenFQNames="true">
     <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
@@ -356,10 +845,199 @@
     <variable name="line2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="line3" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
       <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="covthis" value="# -*- coding: utf-8 -*-&#10;&#10;import os&#10;&#10;os.environ[&quot;PYTEST_UNIT_TEST&quot;] = &quot;Y&quot;&#10;&#10;import pytest&#10;&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    import sys&#10;    import subprocess&#10;&#10;    abspath = os.path.abspath(__file__)&#10;    dir_project_root = os.path.dirname(abspath)&#10;    for _ in range(10):&#10;        if os.path.exists(os.path.join(dir_project_root, &quot;.git&quot;)):&#10;            break&#10;        else:&#10;            dir_project_root = os.path.dirname(dir_project_root)&#10;    else:&#10;        raise FileNotFoundError(&quot;cannot find project root dir!&quot;)&#10;    dir_htmlcov = os.path.join(dir_project_root, &quot;htmlcov&quot;)&#10;    bin_pytest = os.path.join(os.path.dirname(sys.executable), &quot;pytest&quot;)&#10;&#10;    args = [&#10;        bin_pytest,&#10;        &quot;-s&quot;, &quot;--tb=native&quot;,&#10;        f&quot;--rootdir={dir_project_root}&quot;,&#10;        &quot;--cov=MY_PACKAGE.MY_MODULE&quot;,&#10;        &quot;--cov-report&quot;, &quot;term-missing&quot;,&#10;        &quot;--cov-report&quot;, f&quot;html:{dir_htmlcov}&quot;,&#10;        abspath,&#10;    ]&#10;    subprocess.run(args, check=True)&#10;" description="Run unittest in this file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="dropdown" value=".. dropdown:: Dropdown title&#10;    :open:&#10;    :icon: set oction icon, see https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#octicon-icons&#10;" description="sphinx-design dropdown menu" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="important" value=".. important::&#10;&#10;    text here&#10;" description="furo-theme important admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="hint" value=".. hint::&#10;&#10;    text here&#10;" description="furo-theme hint admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="attention" value=".. attention::&#10;&#10;    text here&#10;" description="furo-theme attention admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="caution" value=".. caution::&#10;&#10;    text here&#10;" description="furo-theme caution admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="danger" value=".. danger::&#10;&#10;    text here&#10;" description="furo-theme danger admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="tip" value=".. danger::&#10;&#10;    text here&#10;" description="furo-theme tip admonition" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="LUA_CODE" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="importbotosessionmanager" value="from boto_session_manager import BotoSesManager&#10;from s3pathlib import S3Path, context&#10;" description="import boto_session_manager" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="importtyping" value="import typing as T" description="import typing" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
